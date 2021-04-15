@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+}
+
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100%- 560px);
+    width: 100%;
+    min-height: 192px;
+    max-height: 290px;
+}
+
+.logo-container {
+    margin-top: auto;
+}
+
+.logo {
+    object-position: center bottom;
+}
