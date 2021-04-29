@@ -6,47 +6,46 @@
         <title>Google</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
         <link rel="stylesheet" href="style.css">
-=======
-        <link rel="stylesheet" href="./static/style.css">
->>>>>>> 8d2c7b8061809669268d5b825d44077c2b68e4a5
         <link rel="icon" href="https://www.google.com/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     </head>
     <body>
         <!-- main -->
         <div class="wrapper">
             <!-- nav -->
-            <div class="nav">
-                <a href="#">About</a>
-                <a href="#">Store</a>
-                <div class="right-nav-container">
-                    <div class="right-nav-wrapper">
-                        <a href="#">Gmail</a>
-                        <a href="#">Images</a>
+            <nav>
+                <div>
+                    <a href="#">About</a>
+                    <a href="#">Store</a>
+                </div>
+                <div>
+                    <a href="#">Gmail</a>
+                    <a href="#">Images</a>
+                    <a href="#" id="login"></a>
+                </div>
+            </nav>
+            <main>
+                <!-- logo -->
+                <div class="logo-wrapper">
+                    <div class="logo-container">
+                        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
                     </div>
                 </div>
-            </div>
-            <!-- logo -->
-            <div class="logo-wrapper">
-                <div class="logo-container">
-                    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+                <!-- search -->
+                <div>
+                    <form>
+                        <i class="fas fa-search"></i>
+                        <input type="search" id="search">
+                        <div class="button-container">
+                            <center>
+                                <input class="btn" type="submit" value="Google search">
+                                <input class="btn" type="submit" value="I'm Feeling Lucky">
+                            </center>
+                        </div>
+                    </form>    
                 </div>
-            </div>
-            <!-- search -->
-            <div class="search-container">
-                <form class="search-form">
-                    <div class="search-wrapper">
-                        <input class="search-input" type="search">
-                    </div>
-                    <div class="button-container">
-                        <center>
-                            <input class="btn" type="submit" value="Google search">
-                            <input class="btn" type="submit" value="I'm Feeling Lucky">
-                        </center>
-                    </div>
-                </form>
-            </div>
+            </main>
             <div class="footer-wrapper">
                 <div class="footer-geo">
                     Australia
